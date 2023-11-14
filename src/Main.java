@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * This program draws shapes sorted by area onto a 2D canvas
@@ -11,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Shape> shapes = new ArrayList<Shape>();
         add(shapes);
+        Collections.sort(shapes);
         display(shapes);
     }
 
