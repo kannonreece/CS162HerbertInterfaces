@@ -3,9 +3,9 @@ import java.util.ArrayList;
 /**
  * This program draws shapes sorted by area onto a 2D canvas
  *
- * @author
- * @version
- * @since
+ * @author Kannon Herbert
+ * @version 1
+ * @since 2023
  */
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +15,6 @@ public class Main {
     }
 
     public static void add(ArrayList<Shape> shapes) {
-        //shapes.add(new Shape());
         shapes.add(new Rectangle(10.0, 40.0));
         shapes.add(new Rectangle(20.0, 20.0));
         shapes.add(new Circle(50.0));

@@ -1,7 +1,7 @@
 /**
  * Represents any shape.
  */
-    public abstract class Shape {
+    public abstract class Shape implements Comparable<Shape> {
         private int id;
         private static int numShapes;
 
@@ -47,6 +47,11 @@
          * @return the shape's perimeter
          */
         public abstract double computePerimeter();
+
+        @Override
+        public int compareTo() {
+            
+        }
 
 
         /**
