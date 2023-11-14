@@ -1,5 +1,5 @@
 /**
  * Represents a triangle
  */
-public class Triangle {
+public class Triangle extends Shape {
 }

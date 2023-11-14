@@ -1,7 +1,7 @@
 /**
  * Represents a rectangle
  */
-public class Rectangle {
+public class Rectangle extends Shape {
 
     private double width;
     private double height;
@@ -17,6 +17,16 @@ public class Rectangle {
 
     public double getHeight() {
         return height;
+    }
+
+    @Override
+    public double computeArea() {
+        return width * height;
+    }
+
+    @Override
+    public double computePerimeter() {
+        return 2 * (width + height);
     }
 
 }
