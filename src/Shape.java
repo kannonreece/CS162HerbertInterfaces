@@ -1,7 +1,7 @@
 /**
  * Represents any shape.
  */
-    public class Shape {
+    public abstract class Shape {
         private int id;
         private static int numShapes;
 
@@ -39,13 +39,14 @@
          * Computes the area of the shape
          * @return the shape's area
          */
-        public double computeArea(){ return 0;} //this looks suspect!
+        public abstract double computeArea();
+
 
         /**
          * Computes the perimeter of the shape
          * @return the shape's perimeter
          */
-        public double computePerimeter(){ return 0;} //this looks suspect!
+        public abstract double computePerimeter();
 
 
         /**
