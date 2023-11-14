@@ -16,7 +16,7 @@ public class Main {
 
     public static void add(ArrayList<Shape> shapes) {
         shapes.add(new Shape());
-//        shapes.add(new Rectangle(10.0, 40.0));
+        shapes.add(new Rectangle(10.0, 40.0));
 //        shapes.add(new Rectangle(20.0, 20.0));
 //        shapes.add(new Circle(50.0));
 //        shapes.add(new Circle(100.0));
